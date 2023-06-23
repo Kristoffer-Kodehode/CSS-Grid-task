@@ -55,7 +55,6 @@ h2 {
   background-color: hsl(179, 63%, 40%);
   color: hsl(204, 43%, 93%);
   border-bottom-left-radius: 5px;
-  width: 400px;
 }
 
 #spans {
@@ -79,7 +78,6 @@ h2 {
   color: hsl(204, 43%, 93%);
   border-bottom-right-radius: 13px;
   line-height: 1.5;
-  width: 400px;
 }
 
 button {
