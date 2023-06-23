@@ -15,7 +15,7 @@ body {
   box-shadow: 3px 3px 15px 10px #2222225d;
   margin: 60px auto;
   border-radius: 13px;
-  width: 800px;
+  width: 700px;
   background: none;
 }
 
@@ -33,7 +33,7 @@ h2 {
 
 .gridchild {
   width: 350px;
-  padding: 40px 70px;
+  padding: 35px 70px;
 }
 
 .item1 {
@@ -41,7 +41,7 @@ h2 {
   background-color: #ffffff;
   color: hsl(218, 22%, 67%);
   border-radius: 5px 5px 0 0;
-  width: 800px;
+  width: 700px;
 }
 
 #g30d {
@@ -97,7 +97,7 @@ button {
 }
 
 @media (max-width: 555px) {
-  .container {
+  #container {
     width: 350px;
     justify-content: center;
     padding: 0;
