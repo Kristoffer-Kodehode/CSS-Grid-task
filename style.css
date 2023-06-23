@@ -94,12 +94,12 @@ button {
   box-shadow: 1px 3px 15px 1px #2222224d;
 }
 
-@media (max-width: 555px) {
+@media (max-width: 376px) {
   #container {
     width: 350px;
     justify-content: center;
     padding: 0;
-    margin: 0;
+    margin: 1%;
   }
 
   .item1 {
@@ -113,6 +113,13 @@ button {
 
   .item3 {
     grid-area: 3 / 1 / 4 / 1;
+  }
+}
+
+@media (min-width: 1000px) {
+  button:hover {
+    transform: rotate(1deg);
+    box-shadow: 1px 3px 15px 1px #2222228c;
   }
 }
 
