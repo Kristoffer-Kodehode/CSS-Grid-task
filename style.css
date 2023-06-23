@@ -12,10 +12,10 @@ body {
 #container {
   display: grid;
   justify-content: center;
-  box-shadow: 3px 5px 10px #222222c4;
-  margin: 30px auto;
-  border-radius: 5px;
-  width: 700px;
+  box-shadow: 3px 3px 15px 10px #2222225d;
+  margin: 60px auto;
+  border-radius: 13px;
+  width: 800px;
   background: none;
 }
 
@@ -33,7 +33,7 @@ h2 {
 
 .gridchild {
   width: 350px;
-  padding: 30px 50px;
+  padding: 40px 70px;
 }
 
 .item1 {
@@ -41,7 +41,7 @@ h2 {
   background-color: #ffffff;
   color: hsl(218, 22%, 67%);
   border-radius: 5px 5px 0 0;
-  width: 700px;
+  width: 800px;
 }
 
 #g30d {
@@ -55,6 +55,7 @@ h2 {
   background-color: hsl(179, 63%, 40%);
   color: hsl(204, 43%, 93%);
   border-bottom-left-radius: 5px;
+  width: 400px;
 }
 
 #spans {
@@ -77,6 +78,8 @@ h2 {
   background-color: hsl(179, 62%, 43%);
   color: hsl(204, 43%, 93%);
   border-bottom-right-radius: 13px;
+  line-height: 1.5;
+  width: 400px;
 }
 
 button {
@@ -90,7 +93,7 @@ button {
   font: inherit;
   font-weight: 700;
   font-size: 1.1em;
-  box-shadow: 1px 3px 10px #222222c4;
+  box-shadow: 1px 3px 15px 1px #2222224d;
 }
 
 @media (max-width: 555px) {
