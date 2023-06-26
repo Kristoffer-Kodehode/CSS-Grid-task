@@ -57,7 +57,7 @@ h2 {
   border-bottom-left-radius: 5px;
 }
 
-#spans {
+#cost-month {
   display: inline-flex;
   align-items: center;
 }
@@ -129,7 +129,7 @@ li {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 376px) {
   button:hover {
     transform: rotate(1deg);
     box-shadow: 1px 3px 15px 1px #2222228c;
