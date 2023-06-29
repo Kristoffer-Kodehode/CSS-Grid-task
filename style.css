@@ -14,8 +14,8 @@ body {
 #container {
   /*setting up the grid*/
   display: grid;
-  justify-content: center;
-  box-shadow: 3px 3px 15px 10px #2222225d;
+  place-items: center;
+  box-shadow: 3px 3px 15px 10px #2222221f;
   margin: 60px auto;
   border-radius: 13px;
   width: 45%;
@@ -36,6 +36,7 @@ h2 {
 
 .gridchild {
   width: 100%;
+  height: 100%;
   padding: 35px 70px;
 }
 
@@ -48,7 +49,7 @@ h2 {
 }
 
 #g30d {
-  /*unique text wants unique colours and sizes*/
+  /*unique text wants unique colours and sizing*/
   color: hsl(71, 73%, 54%);
   font-size: 1.2em;
   padding-bottom: 15px;
@@ -63,12 +64,13 @@ h2 {
 }
 
 #cost-month {
-  /*because this bit wants to be extra unique with different sizes and stuff*/
+  /*to cernter the per month behind the price*/
   display: inline-flex;
   align-items: center;
 }
 
 #dolores {
+  /*because these two want to be extra unique with different sizes and stuff*/
   font-weight: 700;
   font-size: 36px;
   padding-right: 10px;
@@ -105,13 +107,12 @@ li {
   list-style-type: none;
 }
 
-@media (max-width: 376px) {
-  /*task asked for mobile version at 375px*/
+@media (max-width: 720px) {
+  /*task asked for mobile version at 375px, but i found that anything between that and 720px to be janky if i just set it to 375px*/
   #container {
     width: 70%;
     justify-content: center;
     padding: 0;
-    margin: 15%;
   }
 
   .item1 {
@@ -136,11 +137,12 @@ li {
   }
 }
 
-@media (min-width: 376px) {
+@media (min-width: 721px) {
   /*task asked for a hover-effect on the desktop version*/
   button:hover {
-    transform: rotate(1deg);
+    transform: rotate(0.2deg);
     box-shadow: 1px 3px 15px 1px #2222228c;
+    background-color: hsl(71, 62%, 49%);
   }
 }
 
